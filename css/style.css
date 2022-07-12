@@ -1,0 +1,472 @@
+body{
+    margin: 0;
+    font-family: Roboto;
+    
+    
+}
+h1{
+    margin: 0 0 -25px 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    width: 15%;
+    height: 100vh;
+    font-size: 19px;
+    font-weight: 500;
+    padding-right: 24px;
+    box-sizing: border-box;
+    margin-left: 5%;
+    border-right: 1px solid #00000014;;
+}
+#logo{
+    padding-top: 36px;
+    
+    
+}
+ul{
+    list-style: none;
+    margin-top: 35px;
+    width: 70%;
+    
+}
+.header{
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 22px;
+    font-family: roboto;
+    margin:  54px 32px;
+}
+#icon3{
+    position: relative;
+    display: inline-block;
+}
+#icon3::after{
+    content: url(../img/f.png);
+    position: absolute;
+    left: 45px;
+    top: -2px;
+    
+}
+
+#star{
+    position: relative;
+    
+}
+#star::after{
+    content: url(../img/star.png);
+    position: absolute;
+    right: 30px;
+}
+.new-tweet{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 142px;
+    box-shadow:  0px 10px 0px #E7ECF0, inset 0px 1px 0px rgba(0, 0, 0, 0.08);
+}
+#text-tweet{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #828282;
+    position: relative;
+    margin: 25px 95px;
+    padding-bottom: 5px;
+
+
+}
+#text-tweet::before{
+    content: url(../img/Profile\ Pic23.png);
+    position: absolute;
+    left: -60px;
+    top: -10px;
+}
+.box-icon{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    margin: 0 50px 0 97px;
+    
+    
+}
+.mini-icon{
+    display: flex;
+    justify-content: space-between;
+    width: 168px;
+    height: 24px;
+}
+.tweet-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 197px;
+    height: 42px;
+}
+#line{
+    border-left: 1px solid #BDBDBD;
+    height: 35px;
+}
+.tweet{
+    width: 85%;
+    margin-left: 90px;
+    position: relative;
+    margin-top: 50px;
+
+}
+.ml{
+    margin-left: -35px;
+    
+}
+.ml::after{
+    content: url(../img/st.png);
+    position: absolute;
+    right: 0;
+}
+
+.tweet::before{
+    content: url(../img/aa\ \(1\).png);
+    position: absolute;
+    left: -55px;
+    top: -4px;
+}
+.line-icon{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #00000014;
+    margin-top: 13px;
+    align-items: center;
+    padding-bottom: 13px;
+}
+li:nth-child(odd){
+    background-color: rgba(189, 230, 255, 0.3);
+}
+li:hover{
+    background-color: coral;
+    transition: 0.5s;
+}
+li:first-child{
+    color: red;
+}
+li:active{
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+li:nth-child(4){
+    font-weight: 900;
+}
+li::after{
+    content: '.';
+}
+li{
+    margin-bottom: 30px;
+}
+#home{
+    position: relative;
+}
+
+#home::before{
+    content: url(../img/Vector-1.png);
+    position: absolute;
+    top: -3px;
+    left: -38px;
+}
+#explore{
+    position: relative;
+}
+
+#explore::before{
+    content: url(../img/Vector-2.png);
+    position: absolute;
+    top: -2px;
+    left: -38px;
+}
+#notifications{
+    position: relative;
+}
+
+#notifications::before{
+    content: url(../img/Vector-3.png);
+    position: absolute;
+    top: 0;
+    left: -38px;
+}
+#messages{
+    position: relative;
+}
+
+#messages::before{
+    content: url(../img/Vector-4.png);
+    position: absolute;
+    top: 1;
+    left: -38px;
+}
+#bookmarks{
+    position: relative;
+}
+
+#bookmarks::before{
+    content: url(../img/Vector-5.png);
+    position: absolute;
+    top: 1px;
+    left: -38px;
+}
+#lists{
+    position: relative;
+}
+.img{
+    position: absolute;
+    top: 0;
+    left: -39px;
+}
+#img{
+    margin: 4px;
+
+}
+
+#profile{
+    position: relative;
+}
+
+#profile::before{
+    content: url(../img/Profile\ Pic.png);
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: -6px;
+    left: -44px;
+}
+#more{
+    position: relative;
+    
+}
+li:last-child{
+    border: 1px solid rgb(61, 190, 250);
+}
+
+
+.img1{
+    position: absolute;
+    top: 0;
+    left: -38px;
+}
+#img1{
+    margin: 9px 5px;
+}
+button{
+    width: 180px;
+    height: 50px;
+    background-color: #1DA1F2;
+    color: #fff;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin-left: auto;
+
+}
+main{
+    width: 60%;
+    height: 100vh;
+   
+}
+#text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: roboto;
+    line-height: 22px;
+}
+#card{
+    margin-top: 15px;
+    width: 100%;
+    height: 50%;
+}
+a{
+    color: #1DA1F2;
+    text-decoration: none;
+}
+.box{
+    width: 30%;
+    height: 100vh;
+    border-left: 1px solid #00000014;;
+    box-sizing: border-box;
+}
+
+.input{
+    border: 1px solid #E7ECF0;
+    width: 280px;
+    height: 48px;
+    background-color: #E7ECF0;
+    border-radius: 100px;
+    display: flex;
+    
+    margin-top: 23px;
+    margin-left: 10%;
+}
+input::placeholder{
+    color: #a3a2a2;
+    font-family: Arial;
+    font-size: 15px;
+}
+#p{
+    width: 15px;
+    height: 15px;
+    margin: 15px;
+
+}
+input{
+    border: none;
+    outline: none;
+    background-color: #E7ECF0;
+}
+
+.news{
+    width: 280px;
+    height: 584px;
+    background-color: #F6F8FA;
+    border-radius: 12px;
+    padding: 20px 20px 0 20px;
+    margin-left: 10%;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+p{
+    margin: 0;
+
+}
+#title{
+    font-size: 19px;
+    font-weight: 900;
+    position: relative;
+    padding-bottom: 20px;
+}
+#title::after{
+    content: url(../img/Gear\ Settings.png);
+    position: absolute;
+    right: 7px;
+}
+
+.one{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+    position: relative;
+    margin-bottom: 5px;
+    margin-top: 0;    
+}
+.two{
+    width: 105px;
+    height: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #333333;
+    margin-bottom: 5px;
+    
+}
+.three{
+    width:100px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #828282;
+}
+.one::after{
+    content: url(../img/99.png);
+    position: absolute;
+    right: 5px;
+}
+hr{
+    margin: 11px -20px;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-top: 1px solid transparent;
+    border-bottom: none;
+   
+}
+#show{
+    color: #1DA1F2;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    
+}
+.box-follow{
+    width: 280px;
+    height: 287px;
+    border-radius: 12px;
+    background-color: #F6F8FA;
+    margin-top: 24px;
+    padding: 16px 19px 0 19px;
+    box-sizing: border-box;
+    margin-left: 10%;
+    
+}
+#title2{
+    font-size: 19px;
+    font-weight: 900;
+    position: relative;
+    
+}
+.block-follow{
+    position: relative;
+    display: grid;
+    grid-template-areas: "ava text follow" ;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 37px;
+    margin-top: 18px;
+
+}
+.text{
+    display: grid;
+    grid-template-areas: "two"
+                        "three";
+    grid-template-rows: 19px;
+    margin-left: -10px;
+}
+.two{
+    grid-area: two;
+}
+.three{
+    grid-area: three;
+}
+
+.ava{
+    grid-area: ava;
+    margin-top: -4px;
+}
+.follow{
+    grid-area: follow;
+    margin-right: -6px;
+}
+#icon::after{
+    content: url(../img/f.png);
+    position: absolute;
+    left: 95px;
+    top: -2px;
+}
+#icon1::after{
+    content: url(../img/f.png);
+    position: absolute;
+    left: 115px;
+    top: -2px;
+}
+#icon2::after{
+    content: url(../img/f.png);
+    position: absolute;
+    left: 137px;
+    top: -2px;
+}
